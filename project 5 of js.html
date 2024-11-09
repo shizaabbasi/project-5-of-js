@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Colors and Methods</h1>
+    <p>As tinu wants to display her favorite colors here is a list of those</p>
+    <p id="c"></p>
+    <p id="j"></p>
+    <script>
+        var color=['pink','purple','blue','green','red','yellow','black']//This is an array in which we can store multiple value under one variable
+        document.getElementById("c").innerHTML=color//This will display all the colors in one line. 
+        //Now to add a new color we can use push method in the following way
+        color.push("white")
+        document.write(color)
+        //now to remove the color from the array we use pop method
+        document.write("<br>")
+        document.write("<br>")
+        color.pop()
+        document.write(color)
+        document.write("<br>")
+        color.pop()
+        document.write(color)
+        document.write("<br>")
+        color.pop()
+        document.write(color)
+        document.write("<br>")
+        color.pop()
+        document.write(color)
+        document.write("<br>")
+        color.pop()
+        document.write(color)
+        document.write("<br>")
+        color.pop()
+        document.write(color)
+        document.write("<br>")
+        color.pop()
+        document.write(color)
+        document.write("<br>")//As we can see that by using this method we can delete te last value of the array.
+        </script>
+</body>
+</html>
